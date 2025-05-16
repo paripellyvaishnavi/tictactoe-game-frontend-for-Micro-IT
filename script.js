@@ -1,5 +1,5 @@
 const cells = document.querySelectorAll('.cell');
-const restartButton = document.getElementById('restart-button');
+const restartButton = document.getElementById('resetButton');
 let currentPlayer = 'X';
 let gameActive = true;
 let board = Array(9).fill('');
