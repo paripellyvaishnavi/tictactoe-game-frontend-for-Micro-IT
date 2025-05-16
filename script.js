@@ -17,7 +17,7 @@ const winningConditions = [
 
 function handleCellClick(event) {
     const cell = event.target;
-    const cellIndex = cell.getAttribute('data-cell-index');
+    const cellIndex = cell.getAttribute('data-index');
 
     if (board[cellIndex] || !gameActive) {
         return;
